@@ -1,0 +1,214 @@
+@base <https://shmishtopher.github.io/department>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix univ: <http://www.cs.ccsu.edu/~neli/university.owl#>.
+
+<#fatemeh-abdollahzadeh>
+  a foaf:Person;
+  foaf:name   "Fatemeh Abdollahzadeh";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:Abdollah@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2714";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    "CS253",
+    "CS481",
+    "CS501".
+
+<#yusuf-albayram>
+  a foaf:Person;
+  foaf:name   "Yusuf Albayram";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:yusuf.albayram@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2715";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    "CS407",
+    "CS418",
+    "CS506",
+    "CS560".
+
+<#sixia-chen>
+  a foaf:Person;
+  foaf:name   "Sixia Chen";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:schen@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2718";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    "CS407",
+    "CS463",
+    "CS508".
+
+<#bradley-kjell>
+  a foaf:Person;
+  foaf:name   "Bradley Kjell";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:Kjell@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2717";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    "CS153",
+    "CS254".
+
+<#stanislav-kurkovsky>
+  a foaf:Person;
+  foaf:name   "Stanislav Kurkovsky";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:kurkovsky@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2720";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    "CS407",
+    "CS410",
+    "CS455",
+    "CS498",
+    "CS510".
+
+<#zdravko-markov>
+  a foaf:Person;
+  foaf:name   "Zdravko Markov";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:MarkovZ@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2711";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    "CS354",
+    "CS385".
+
+<#irena-pevac>
+  a foaf:Person;
+  foaf:name   "Irena Pevac";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:Pevac@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2721";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    "CS151",
+    "CS152".
+
+<#chad-williams>
+  a foaf:Person;
+  foaf:name   "Chad Williams";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:cwilliams@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2719";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    "CS492".
+
+<#mahdieh-zabihimayvan>
+  a foaf:Person;
+  foaf:name   "Mahdieh Zabihimayvan";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:zabihimayvan@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2716";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#neli-zlatareva>;
+  univ:teaches
+    "CS355".
+
+<#neli-zlatareva>
+  a foaf:Person ;
+  foaf:name   "Neli Zlatareva" ;
+  foaf:title  "Dr" ;
+  foaf:mbox   "mailto:Zlatareva@ccsu.edu" ;
+  foaf:tel    "tel:+1-860-832-2723" ;
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>;
+  univ:teaches
+    "CS253",
+    "CS407",
+    "CS462",
+    "CS570",
+    "CS575".

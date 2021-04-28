@@ -1,0 +1,32 @@
+@prefix ex:    <http://example.org/addressbook#> .
+@prefix d:     <http://example.org/data#> .
+
+d:i55   a             ex:Student ;
+        ex:email      "ElizabethMHolland@gmail.com" ;
+        ex:firstName  "Elizabeth" ;
+        ex:homeTel    "(802) 245-5788" ;
+        ex:lastName   "Holland" .
+
+d:i44   a             ex:Student ;
+        ex:email      "GeorgeMWesterlund@gmail.com" ;
+        ex:firstName  "George" ;
+        ex:homeTel    "(414) 344-1585" ;
+        ex:lastName   "Westerlund" .
+
+d:i33   a             ex:Student ;
+        ex:email      "greg@gmail.com" , "greg@yahoo.com" ;
+        ex:firstName  "Greg" ;
+        ex:homeTel    "(860) 578-7614" ;
+        ex:lastName   "Wilson" .
+
+d:i22   a             ex:Student ;
+        ex:email      "emi@gmail.com" ;
+        ex:firstName  "Emi" ;
+        ex:homeTel    "(860) 846-2323" ;
+        ex:lastName   "Smith" .
+
+d:i11   a             ex:Student ;
+        ex:email      "bob@hotmail.com" ;
+        ex:firstName  "Bob" ;
+        ex:homeTel    "(560) 333-5135" ;
+        ex:lastName   "Jones" .

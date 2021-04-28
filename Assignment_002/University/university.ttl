@@ -1,0 +1,494 @@
+@base <https://shmishtopher.github.io>.
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix univ: <http://www.cs.ccsu.edu/~neli/university.owl#>.
+
+
+# 
+# Department
+#
+<#fatemeh-abdollahzadeh>
+  a foaf:Person, univ:Professor;
+  foaf:name   "Fatemeh Abdollahzadeh";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:Abdollah@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2714";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    <#CS-253>,
+    <#CS-481>,
+    <#CS-501>.
+
+<#yusuf-albayram>
+  a foaf:Person, univ:Professor;
+  foaf:name   "Yusuf Albayram";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:yusuf.albayram@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2715";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    <#CS-407>,
+    <#CS-418>,
+    <#CS-506>,
+    <#CS-560>.
+
+<#sixia-chen>
+  a foaf:Person, univ:Professor;
+  foaf:name   "Sixia Chen";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:schen@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2718";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    <#CS-407>,
+    <#CS-463>,
+    <#CS-508>.
+
+<#bradley-kjell>
+  a foaf:Person, univ:Professor;
+  foaf:name   "Bradley Kjell";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:Kjell@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2717";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    <#CS-153>,
+    <#CS-254>.
+
+<#stanislav-kurkovsky>
+  a foaf:Person, univ:Professor;
+  foaf:name   "Stanislav Kurkovsky";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:kurkovsky@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2720";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    <#CS-407>,
+    <#CS-410>,
+    <#CS-455>,
+    <#CS-498>,
+    <#CS-510>.
+
+<#zdravko-markov>
+  a foaf:Person, univ:Professor;
+  foaf:name   "Zdravko Markov";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:MarkovZ@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2711";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    <#CS-354>,
+    <#CS-385>.
+
+<#irena-pevac>
+  a foaf:Person, univ:Professor;
+  foaf:name   "Irena Pevac";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:Pevac@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2721";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    <#CS-151>,
+    <#CS-152>.
+
+<#chad-williams>
+  a foaf:Person, univ:Professor;
+  foaf:name   "Chad Williams";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:cwilliams@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2719";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#mahdieh-zabihimayvan>,
+    <#neli-zlatareva>;
+  univ:teaches
+    <#CS-492>.
+
+<#mahdieh-zabihimayvan>
+  a foaf:Person, univ:Professor;
+  foaf:name   "Mahdieh Zabihimayvan";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:zabihimayvan@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2716";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#neli-zlatareva>;
+  univ:teaches
+    <#CS-355>.
+
+<#neli-zlatareva>
+  a foaf:Person, univ:Professor;
+  foaf:name   "Neli Zlatareva";
+  foaf:title  "Dr";
+  foaf:mbox   "mailto:Zlatareva@ccsu.edu";
+  foaf:tel    "tel:+1-860-832-2723";
+  foaf:knows
+    <#fatemeh-abdollahzadeh>,
+    <#yusuf-albayram>,
+    <#sixia-chen>,
+    <#bradley-kjell>,
+    <#stanislav-kurkovsky>,
+    <#zdravko-markov>,
+    <#irena-pevac>,
+    <#chad-williams>,
+    <#mahdieh-zabihimayvan>;
+  univ:teaches
+    <#CS-253>,
+    <#CS-407>,
+    <#CS-462>,
+    <#CS-570>,
+    <#CS-575>.
+
+
+#
+# Students 
+# 
+_:student_00
+  a foaf:Person, univ:Student;
+  foaf:name "Carola Wang";
+  univ:studentID 46970507;
+  univ:studies
+    <#CS-253>,
+    <#CS-407>,
+    <#CS-355>.
+
+_:student_01
+  a foaf:Person, univ:Student;
+  foaf:name "Rupert Sommer";
+  univ:studentID 73528184;
+  univ:studies
+    <#CS-355>.
+
+_:student_02
+  a foaf:Person, univ:Student;
+  foaf:name "Kristina Bäcker";
+  univ:studentID 59146280;
+  univ:studies
+    <#CS-483>,
+    <#CS-492>.
+
+_:student_03
+  a foaf:Person, univ:Student;
+  foaf:name "Gunther Pabst";
+  univ:studentID 17638944;
+  univ:studies
+    <#CS-385>,
+    <#CS-355>.
+
+_:student_04
+  a foaf:Person, univ:Student;
+  foaf:name "Otto Brun";
+  univ:studentID 17638944;
+  univ:studies
+    <#CS-152>,
+    <#CS-253>.
+
+
+# 
+# Courses
+# 
+<#CS-140> 
+  a univ:Course;
+  rdfs:label "Survey of CS".
+
+<#CS-151> 
+  a univ:Course;
+  rdfs:label "CS I".
+
+<#CS-152> 
+  a univ:Course;
+  rdfs:label "CS II".
+
+<#CS-153> 
+  a univ:Course;
+  rdfs:label "CS III".
+
+<#CS-253> 
+  a univ:Course;
+  rdfs:label "Data Structures".
+
+<#CS-254> 
+  a univ:Course;
+  rdfs:label "Assembler".
+
+<#CS-291> 
+  a univ:Course;
+  rdfs:label "Computer Forensics".
+
+<#CS-354> 
+  a univ:Course;
+  rdfs:label "Digital Systems Design".
+
+<#CS-355> 
+  a univ:Course;
+  rdfs:label "Systems Programming".
+
+<#CS-385> 
+  a univ:Course;
+  rdfs:label "Computer Architecture".
+
+<#CS-460> 
+  a univ:Course;
+  rdfs:label "Database Concepts".
+
+<#CS-463> 
+  a univ:Course;
+  rdfs:label "Algorithms".
+
+<#CS-464> 
+  a univ:Course;
+  rdfs:label "Programming Languages".
+
+<#CS-481> 
+  a univ:Course;
+  rdfs:label "Operating Systems Design".
+
+<#CS-483> 
+  a univ:Course;
+  rdfs:label "Theory of Computation".
+
+<#CS-492> 
+  a univ:Course;
+  rdfs:label "Computer Security".
+
+<#CS-493> 
+  a univ:Course;
+  rdfs:label "Secure Software Systems".
+
+<#CS-494> 
+  a univ:Course;
+  rdfs:label "Cryptographic Systems".
+
+<#CS-410> 
+  a univ:Course;
+  rdfs:label "Software Engineering".
+
+<#CS-498> 
+  a univ:Course;
+  rdfs:label "Senior Project".
+
+<#CS-290> 
+  a univ:Course;
+  rdfs:label "Topics in CS".
+
+<#CS-407> 
+  a univ:Course;
+  rdfs:label "Advanced Topics in CS".
+
+<#CS-414> 
+  a univ:Course;
+  rdfs:label "Mobile App Development".
+
+<#CS-415> 
+  a univ:Course;
+  rdfs:label "Game Development".
+
+<#CS-416> 
+  a univ:Course;
+  rdfs:label "Web Programming".
+
+<#CS-417> 
+  a univ:Course;
+  rdfs:label "Design Patterns".
+
+<#CS-418> 
+  a univ:Course;
+  rdfs:label "Software Testing and Quality Assurance".
+
+<#CS-419> 
+  a univ:Course;
+  rdfs:label "Usable Security and Privacy".
+
+<#CS-423> 
+  a univ:Course;
+  rdfs:label "Computer Graphics".
+
+<#CS-425> 
+  a univ:Course;
+  rdfs:label "Image Processing".
+
+<#CS-430> 
+  a univ:Course;
+  rdfs:label "Big Data Programming".
+
+<#CS-455> 
+  a univ:Course;
+  rdfs:label "Secure Software Development".
+
+<#CS-462> 
+  a univ:Course;
+  rdfs:label "Artificial Intelligence".
+
+<#CS-465> 
+  a univ:Course;
+  rdfs:label "Compiler Design".
+
+<#CS-473> 
+  a univ:Course;
+  rdfs:label "Simulation Techniques".
+
+<#CS-490> 
+  a univ:Course;
+  rdfs:label "Computer Networks".
+
+<#CS-495> 
+  a univ:Course;
+  rdfs:label "Social, Ethical, and Economic Issues".
+
+<#CS-300> 
+  a univ:Course;
+  rdfs:label "Work Experience".
+
+<#CS-398> 
+  a univ:Course;
+  rdfs:label "Independent Study".
+
+<#CS-499> 
+  a univ:Course;
+  rdfs:label "Seminar in CS".
+
+<#CS-500> 
+  a univ:Course;
+  rdfs:label "Computer Science for CIT".
+
+<#CS-501> 
+  a univ:Course;
+  rdfs:label "Foundations of CS".
+
+<#CS-502> 
+  a univ:Course;
+  rdfs:label "Computing & Comm Technologies".
+
+<#CS-505> 
+  a univ:Course;
+  rdfs:label "Design Patterns".
+
+<#CS-506> 
+  a univ:Course;
+  rdfs:label "Software Testing and Quality Assurance".
+
+<#CS-508> 
+  a univ:Course;
+  rdfs:label "Distributed Computing".
+
+<#CS-510> 
+  a univ:Course;
+  rdfs:label "Foundations of Software Engineering".
+
+<#CS-525> 
+  a univ:Course;
+  rdfs:label "Advanced Algorithms".
+
+<#CS-530> 
+  a univ:Course;
+  rdfs:label "Advanced Software Engineering".
+
+<#CS-550> 
+  a univ:Course;
+  rdfs:label "Topics in HCI".
+
+<#CS-560> 
+  a univ:Course;
+  rdfs:label "Topic in Software Engineering".
+
+<#CS-565> 
+  a univ:Course;
+  rdfs:label "Bioinformatics".
+
+<#CS-570> 
+  a univ:Course;
+  rdfs:label "Topics in Artificial Intelligence".
+
+<#CS-575> 
+  a univ:Course;
+  rdfs:label "Linked Data Engineering".
+
+<#CS-580> 
+  a univ:Course;
+  rdfs:label "Topics in Databases".
+
+<#CS-590> 
+  a univ:Course;
+  rdfs:label "Topics in HPC".
+
+<#CS-594> 
+  a univ:Course;
+  rdfs:label "Graduate Research Seminar".

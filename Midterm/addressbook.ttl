@@ -1,0 +1,17 @@
+@prefix ex: <http://example.org/addressbook#> .
+@prefix d: <http://example.org/data#> .
+
+d:i11 ex:firstName "Bob" .
+d:i11 ex:lastName "Jones" .
+d:i11 ex:homeTel "(560) 333-5135".
+d:i11 ex:email "bob@hotmail.com".
+
+d:i22 ex:firstName "Emi" .
+d:i22 ex:lastName "Smith" .
+d:i22 ex:homeTel "(860) 846-2323" .
+d:i22 ex:email "emi@gmail.com".
+
+d:i33 ex:firstName "Greg" .
+d:i33 ex:lastName "Wilson" .
+d:i33 ex:email "greg@yahoo.com" .
+d:i33 ex:email "greg@gmail.com" .

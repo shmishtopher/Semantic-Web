@@ -1,0 +1,6 @@
+PREFIX : <https://shmishtopher.github.io#>
+
+# Describe all the movies James Dean starred in
+DESCRIBE ?x WHERE {
+  ?x :starring :JamesDean.
+}

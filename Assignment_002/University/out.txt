@@ -1,0 +1,184 @@
+--------------------------------------------------------------
+| name                    | mbox                             |
+==============================================================
+| "Sixia Chen"            | "mailto:schen@ccsu.edu"          |
+| "Stanislav Kurkovsky"   | "mailto:kurkovsky@ccsu.edu"      |
+| "Yusuf Albayram"        | "mailto:yusuf.albayram@ccsu.edu" |
+| "Neli Zlatareva"        | "mailto:Zlatareva@ccsu.edu"      |
+| "Bradley Kjell"         | "mailto:Kjell@ccsu.edu"          |
+| "Fatemeh Abdollahzadeh" | "mailto:Abdollah@ccsu.edu"       |
+| "Zdravko Markov"        | "mailto:MarkovZ@ccsu.edu"        |
+| "Chad Williams"         | "mailto:cwilliams@ccsu.edu"      |
+| "Irena Pevac"           | "mailto:Pevac@ccsu.edu"          |
+| "Mahdieh Zabihimayvan"  | "mailto:zabihimayvan@ccsu.edu"   |
+--------------------------------------------------------------
+
+-------------------------
+| name                  |
+=========================
+| "Neli Zlatareva"      |
+| "Stanislav Kurkovsky" |
+| "Sixia Chen"          |
+| "Yusuf Albayram"      |
+-------------------------
+
+---------------------------------------------------
+| name                    | tel                   |
+===================================================
+| "Sixia Chen"            | "tel:+1-860-832-2718" |
+| "Stanislav Kurkovsky"   | "tel:+1-860-832-2720" |
+| "Yusuf Albayram"        | "tel:+1-860-832-2715" |
+| "Neli Zlatareva"        | "tel:+1-860-832-2723" |
+| "Bradley Kjell"         | "tel:+1-860-832-2717" |
+| "Fatemeh Abdollahzadeh" | "tel:+1-860-832-2714" |
+| "Zdravko Markov"        | "tel:+1-860-832-2711" |
+| "Chad Williams"         | "tel:+1-860-832-2719" |
+| "Irena Pevac"           | "tel:+1-860-832-2721" |
+| "Mahdieh Zabihimayvan"  | "tel:+1-860-832-2716" |
+---------------------------------------------------
+
+------------
+| id       |
+============
+| 17638944 |
+| 73528184 |
+| 46970507 |
+------------
+
+-------------------------
+| name          | class |
+=========================
+| "Carola Wang" |       |
+| "Otto Brun"   |       |
+-------------------------
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:univ="http://www.cs.ccsu.edu/~neli/university.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns="https://shmishtopher.github.io#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <rdf:Description rdf:about="http://www.cs.ccsu.edu/~neli/university.owl#CSDepartment">
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-494"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-499"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-291"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-355"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-490"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-462"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-506"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-414"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-416"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-465"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-455"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-152"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-419"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-300"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-590"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-290"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-398"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-254"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-575"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-493"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-495"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-498"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-410"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-510"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-500"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-502"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-423"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-151"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-530"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-354"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-525"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-385"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-505"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-492"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-464"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-508"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-418"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-253"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-594"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-501"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-460"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-430"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-140"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-425"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-415"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-417"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-407"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-580"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-570"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-560"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-550"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-153"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-473"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-481"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-483"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-565"/>
+    <univ:offers rdf:resource="https://shmishtopher.github.io#CS-463"/>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:univ="http://www.cs.ccsu.edu/~neli/university.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns="https://shmishtopher.github.io#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <rdf:Description rdf:nodeID="A0">
+    <foaf:knows>
+      <rdf:Description rdf:nodeID="A1">
+        <foaf:knows>
+          <rdf:Description rdf:nodeID="A2">
+            <foaf:knows rdf:nodeID="A1"/>
+            <foaf:knows rdf:nodeID="A2"/>
+            <foaf:knows rdf:nodeID="A0"/>
+          </rdf:Description>
+        </foaf:knows>
+        <foaf:knows rdf:nodeID="A0"/>
+        <foaf:knows rdf:nodeID="A1"/>
+        <foaf:knows>
+          <rdf:Description rdf:nodeID="A3">
+            <foaf:knows rdf:nodeID="A1"/>
+            <foaf:knows rdf:nodeID="A3"/>
+          </rdf:Description>
+        </foaf:knows>
+      </rdf:Description>
+    </foaf:knows>
+    <foaf:knows rdf:nodeID="A2"/>
+    <foaf:knows rdf:nodeID="A0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <foaf:knows rdf:nodeID="A4"/>
+  </rdf:Description>
+</rdf:RDF>
+
+true
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:univ="http://www.cs.ccsu.edu/~neli/university.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns="https://shmishtopher.github.io#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <univ:Professor rdf:about="https://shmishtopher.github.io#neli-zlatareva">
+    <univ:teaches rdf:resource="https://shmishtopher.github.io#CS-407"/>
+    <foaf:knows rdf:resource="https://shmishtopher.github.io#fatemeh-abdollahzadeh"/>
+    <univ:teaches rdf:resource="https://shmishtopher.github.io#CS-570"/>
+    <foaf:knows rdf:resource="https://shmishtopher.github.io#bradley-kjell"/>
+    <foaf:mbox>mailto:Zlatareva@ccsu.edu</foaf:mbox>
+    <univ:teaches rdf:resource="https://shmishtopher.github.io#CS-253"/>
+    <univ:teaches rdf:resource="https://shmishtopher.github.io#CS-462"/>
+    <foaf:name>Neli Zlatareva</foaf:name>
+    <foaf:knows rdf:resource="https://shmishtopher.github.io#stanislav-kurkovsky"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:knows rdf:resource="https://shmishtopher.github.io#chad-williams"/>
+    <foaf:tel>tel:+1-860-832-2723</foaf:tel>
+    <foaf:title>Dr</foaf:title>
+    <univ:teaches rdf:resource="https://shmishtopher.github.io#CS-575"/>
+    <foaf:knows rdf:resource="https://shmishtopher.github.io#sixia-chen"/>
+    <foaf:knows rdf:resource="https://shmishtopher.github.io#yusuf-albayram"/>
+    <foaf:knows rdf:resource="https://shmishtopher.github.io#mahdieh-zabihimayvan"/>
+    <foaf:knows rdf:resource="https://shmishtopher.github.io#irena-pevac"/>
+    <foaf:knows rdf:resource="https://shmishtopher.github.io#zdravko-markov"/>
+  </univ:Professor>
+</rdf:RDF>

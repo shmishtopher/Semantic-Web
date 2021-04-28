@@ -1,0 +1,123 @@
+@prefix : <https://shmishtopher.github.io#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+#
+# Films
+#
+:Giant
+  :year 1956;
+  :directedBy :FredGuiol;
+  :starring
+    :ElizabethTaylor,
+    :RockHudson,
+    :JamesDean.
+
+:EastOfEden
+  :year 1955;
+  :directedBy :EliaKazan;
+  :starring
+    :JamesDean,
+    :RaymondMassey,
+    :JulieHarris.
+
+:ItShouldHappenToYou
+  :year 1954;
+  :directedBy :GeorgeCukor;
+  :starring
+    :JudyHolliday,
+    :JackLemmon,
+    :PeterLawford.
+
+:TheSearchers
+  :year 1956;
+  :directedBy :JohnFord;
+  :starring
+    :JohnWayne,
+    :JefferyHunter,
+    :VeraMiles.
+
+:RebelWithoutACause
+  :year 1955;
+  :directedBy :NicholasRay;
+  :starring
+    :JamesDean,
+    :NatalieWood,
+    :SalMineo.
+
+#
+# Directors
+#
+:FredGuiol
+  a :Director;
+  rdfs:label "Fred Guiol".
+
+:EliaKazan
+  a :Director;
+  rdfs:label "Elia Kazan".
+
+:GeorgeCukor
+  a :Director;
+  rdfs:label "George Cukor".
+
+:JohnFord
+  a :Director;
+  rdfs:label "John Ford".
+
+:NicholasRay
+  a :Director;
+  rdfs:label "Nicholas Ray".
+
+#
+# Actors
+#
+:ElizabethTaylor
+  a :Actor;
+  rdfs:label "Elizabeth Talor".
+
+:RockHudson
+  a :Actor;
+  rdfs:label "Rock Hudson".
+
+:JamesDean
+  a :Actor;
+  rdfs:label "James Dean".
+
+:RaymondMassey
+  a :Actor;
+  rdfs:label "Raymond Massey".
+
+:JulieHarris
+  a :Actor;
+  rdfs:label "Julie Harris".
+
+:JudyHolliday
+  a :Actor;
+  rdfs:label "Judy Holliday".
+
+:JackLemmon
+  a :Actor;
+  rdfs:label "Jack Lemmon".
+
+:PeterLawford
+  a :Actor;
+  rdfs:label "Perter Lawford".
+
+:JohnWayne
+  a :Actor;
+  rdfs:label "John Wayne".
+
+:JefferyHunter
+  a :Actor;
+  rdfs:label "Jeffery Hunter".
+
+:VeraMiles
+  a :Actor;
+  rdfs:label "Vera Miles".
+
+:NatalieWood
+  a :Actor;
+  rdfs:label "Natalie Wood".
+
+:SalMineo
+  a :Actor;
+  rdfs:label "Sal Mineo".
