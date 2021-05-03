@@ -1,14 +1,16 @@
-## Getting Started
+AUTO is an interactive command line tool for
+matching you to a car.  AUTO presents an intuitive
+question-based interface that lets you search
+through thousands of cars for potential matches.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Currently, AUTO will ask for:
+- Make
+- city MPG
+- highway MPG
+- hybrid status
+- horsepower
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-## Dependency Management
-
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+All of these feilds are optional, and the application
+will dynamically generate the appropriate query.
+Nummeric values are lower bounds, so the application
+will filter for cars with equal or greater magnitudes.

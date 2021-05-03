@@ -28,7 +28,7 @@ public class Queries {
             (hybrid.equals("") ? "" : "?car :Hybrid '%s") +
             (hp.equals("") ? "" : "FILTER (?hp >= %s)") +
 
-            "} LIMIT 3                          " , make, cityMPG, highwayMPG, hybrid, hp)
+            "} LIMIT 10                         " , make, cityMPG, highwayMPG, hybrid, hp)
         );
     }
 }
